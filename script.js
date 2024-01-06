@@ -7,7 +7,7 @@ function calculateLength() {
     const collas = centimetri / 2.54;
     const peds = centimetri / 30.48;
 
-    const resultMessage = `Rezultāti:<br>${centimetri} centimetri ir ${olekts.toFixed(2)} olektis, ${collas.toFixed(2)} collas, vai ${peds.toFixed(2)} pēdas.`;
+    const resultMessage = `Rezultāti:<br>${centimetri} centimetri ir ${olekts.toFixed(2)} olektis, ${collas.toFixed(2)} collas, jeb ${peds.toFixed(2)} pēdas.`;
 
     document.getElementById('result').innerHTML = resultMessage;
   } else {
